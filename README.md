@@ -1,24 +1,24 @@
 # acensi_apirest_test
 ## Technical test of symfony basics and api RESTFul
 ### 1st level
-composer create-project symfony/skeleton:"^5.4" acensi_apirest_test
-composer require webapp
+composer create-project symfony/skeleton:"^5.4" acensi_apirest_test  
 
-Installation of npm packages for sass and webpack encore for bootstrap + other settings 
-composer require symfony/webpack-encore-bundle
-npm install -g npm@latest
-npm install bootstrap
+composer require webapp  
+Installation of npm packages for sass and webpack encore for bootstrap + other settings  
+composer require symfony/webpack-encore-bundle  
+npm install -g npm@latest  
+npm install bootstrap  
 <!-- # config/packages/twig.yaml
-twig: form_themes: ['bootstrap_5_layout.html.twig'] -->
-npm install postcss-loader@^6.0.0 --save-dev
+twig: form_themes: ['bootstrap_5_layout.html.twig'] -->  
+npm install postcss-loader@^6.0.0 --save-dev  
+Test homepage with bootstrap style  
 
-Test homepage with bootstrap style
-1st commit 
+1st commit   
 
-Creation branch develop then feature branchs per step
-Creation 1st entity : symfony console make:entity 
-Creation of bdd on workbench sql then migration migrate
-Creation form bound to entity : symfony console make:form
-Testing of all view pages after creation of if via form
+Creation branch develop then feature branchs per step  
+Creation 1st entity : symfony console make:entity   
+Creation of bdd on workbench sql then migration migrate  
+Creation form bound to entity : symfony console make:form  
+Testing of all view pages after creation of if via form  
 
 ### 2nd level
