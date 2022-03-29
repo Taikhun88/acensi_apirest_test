@@ -22,3 +22,5 @@ Creation form bound to entity : symfony console make:form
 Testing of all view pages after creation of if via form  
 
 ### 2nd level
+Created a style.css
+Add a little of bootstrap style to border of the form
