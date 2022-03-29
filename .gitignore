@@ -1,5 +1,6 @@
 # variables
 .env
+.env.local
 
 #composer
 composer.json
@@ -25,11 +26,8 @@ webpack.config.js
 # symfony
 assets
 bin
-config
-migrations
 translations
 var
 public/build
-
 #php version for symfony server run
 .php-version
