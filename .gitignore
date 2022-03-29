@@ -1,0 +1,35 @@
+# variables
+.env
+
+#composer
+composer.json
+composer.lock
+vendor
+
+#node modules
+node_modules
+
+# scss
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# docker
+docker-compose.yml
+docker-compose.override.yml
+
+# encore
+webpack.config.js
+
+# symfony
+assets
+bin
+config
+migrations
+translations
+var
+public/build
+
+#php version for symfony server run
+.php-version

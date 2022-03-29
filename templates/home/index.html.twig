@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Test technique Tai - Acensi
+{% endblock %}
+
+{% block body %}
+	<main>    
+        <div class="mx-5 my-5">
+            <h1>Bienvenue sur l'app RESTful Acensi =)</h1>
+                <h2>Test technique</h2>
+            <p>
+                Pré-requis :
+                Stack technique : PHP5/7, HTML5, Css3, Mysql, JavaScript, doctrine, git Durée de test: 2H-3H
+                Internet/ documentation : Autoriser
+                NB: il faut pousser votre travail sur votre GIT personnel et l'envoyer par mail sur  lucile.margall@acensi.fr
+            </p>
+
+                    <h3>Niveau 1:</h3>
+                    <p>
+                        Installer le framework Symfony (En utilisant Composer)
+                        Créer une première classe Student (Entity) qui contient les champs (FirstName 25 caractère / LastName 25 caractère / NumEtud 10 chiffre )
+                        Générer les formulaires pour cette classe
+                        Créer les CRUD :
+                        Lister tous les enregistrements (Formulaire d'affichages)
+                        Créer un enregistrement (Formulaire d'ajout)
+                        Modifier un enregistrement existant (Formulaire de modification)
+                        Supprimer un enregistrement existant (Bouton de suppression )</p>
+
+                    <h3>Niveau 2:</h3>
+                    <p>
+                        Intégrer Bootstrap à votre projet
+                        Adapter Bootstrap à vos formulaires</p>
+                    <h3>Niveau 3:</h3>
+                    <p>
+                        Créer une deuxième classe Department (Entity) qui contient les champs (Name 25 caractère / Capacity 10 chiffre )
+                        Créer la relation entre la classe Departement et Student (OneToMany)
+                    </p>
+                    <h3>Niveau 4:</h3>
+                    <p>Créer un ApiRest en utilisant FosRestBundle ou Api-Platform pour lister tous les étudiants inscrits dans un département
+                    Créer un Api documentation
+                    </p>
+                    <div>
+                        <form>
+                            <p> 
+                                <label for="">Nom</label>
+                                <input type="text" name="" id="">
+                            </p>
+                            <p> 
+                                <label for="">Prénom</label>
+                                <input type="text" name="" id="">
+                            </p>
+                            <p> 
+                                <label for="">Email</label>
+                                <input type="text" name="" id="">
+                            </p>
+                            <button type="submit" value="send">Envoyer</button>
+                        </form>
+                    </div>
+        </div>
+	</main>
+{% endblock %}
