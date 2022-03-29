@@ -1,6 +1,6 @@
 # acensi_apirest_test
-Technical test of symfony basics and api RESTFul
-1st step
+## Technical test of symfony basics and api RESTFul
+### 1st level
 composer create-project symfony/skeleton:"^5.4" acensi_apirest_test
 composer require webapp
 
@@ -19,3 +19,6 @@ Creation branch develop then feature branchs per step
 Creation 1st entity : symfony console make:entity 
 Creation of bdd on workbench sql then migration migrate
 Creation form bound to entity : symfony console make:form
+Testing of all view pages after creation of if via form
+
+### 2nd level
